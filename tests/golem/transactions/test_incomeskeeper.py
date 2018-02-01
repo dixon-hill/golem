@@ -59,7 +59,7 @@ class TestIncomesKeeper(TestWithDatabase, PEP8MixIn):
                                  )
         self.assertEqual(ExpectedIncome.select().count(), 1)
 
-        transaction_id = generate_some_id('transaction_id')
+        transaction_id = '0xdead'
         income = self.incomes_keeper.received(
             sender_node_id=sender_node_id,
             subtask_id=subtask_id,
@@ -74,7 +74,7 @@ class TestIncomesKeeper(TestWithDatabase, PEP8MixIn):
         with db.atomic():
             income = Income.get(sender_node=sender_node_id, subtask=subtask_id)
         self.assertEqual(income.value, value)
-        self.assertEqual(income.transaction, transaction_id)
+        self.assertEqual(income.transaction, transaction_id[2:])
 
         # try to duplicate key
         # same sender cannot pay for the same subtask twice

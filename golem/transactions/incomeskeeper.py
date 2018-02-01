@@ -72,7 +72,7 @@ class IncomesKeeper(object):
                 income = Income.create(
                     sender_node=sender_node_id,
                     subtask=subtask_id,
-                    transaction=transaction_id,
+                    transaction=transaction_id[2:],
                     value=value)
                 return income
 
