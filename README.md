@@ -5,7 +5,7 @@
 [![codecov](https://codecov.io/gh/golemfactory/golem/branch/develop/graph/badge.svg)](https://codecov.io/gh/golemfactory/golem)
 
 The aim of the Golem project is to create a global prosumer market for computing power, in which
-producers may sell spare CPU time of their personal computers and consumers may acquire resources
+producers may sell spare CPU time on their personal computers and consumers may acquire resources
 for computation-intensive tasks. In technical terms, Golem is designed as a decentralised peer-to-peer
 network established by nodes running the Golem client software. For the purpose of this paper we assume
 that there are two types of nodes in the Golem network: requestor nodes that announce computing
@@ -14,7 +14,7 @@ between both roles).
 
 ## Installing and testing
 
-For Mac OS X (ver. 10.10 (Yosemite) or later) follow the installation instruction from [here](https://github.com/golemfactory/homebrew-golem).
+For Mac OS X (ver. 10.10 (Yosemite) or later) follow the installation instructions [here](https://github.com/golemfactory/homebrew-golem).
 For Ubuntu (16.04 or higher) download [script](https://raw.githubusercontent.com/golemfactory/golem/develop/Installer/Installer_Linux/install.sh), make it executable `chmod +x install.sh` and run `./install.sh`.
 For MS Windows 10 download the installer from [here](https://github.com/golemfactory/golem/releases/); when downloaded, just run `setup.exe`.
 
@@ -36,7 +36,7 @@ The most common problems are described in section 10: https://docs.golem.network
 
 ## Warning
 
-Golem Project is a work in progress. Current version is an alpha stage of Brass Golem and it's not fully secured. Check [this list of issues](https://github.com/golemfactory/golem/labels/security) for more details.
+Golem Project is a work in progress. The current version is the alpha stage of Brass Golem and it's not fully secured. Check [this list of issues](https://github.com/golemfactory/golem/labels/security) for more details.
 Please be sure that you understand the risk before installing the software.
 
 ## License
@@ -69,7 +69,7 @@ Icons:
 
 ## Contact  
 
-Help us develop the application by submitting issues and bugs. See instruction
+Help us develop the application by submitting issues and bugs. See instructions
 [here](https://github.com/golemfactory/golem/wiki/Testing).
 
 You can also send us an email to `contact@golem.network` or talk to us on [chat.golem.network](https://chat.golem.network).
